@@ -20,11 +20,11 @@ export default function App({ Component, pageProps }) {
         <meta property="og:title" content="49 FRIENDS" />
         <meta
           name="description"
-          content="We are 49 (+1) friends. A group/party working for the future."
+          content="A collaborative party of creatives working to bring the future to you one friend at a time."
         />
         <meta
           property="og:description"
-          content="We are 49 (+1) friends. A group/party working for the future."
+          content="A collaborative party of creatives working to bring the future to you one friend at a time."
         />
         <meta property="og:site_name" content="49 FRIENDS" />
         <meta property="og:url" content="https://49friends.party" />

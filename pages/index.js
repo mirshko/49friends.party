@@ -8,14 +8,13 @@ const Home = () => (
 
         <p>We are 49 (+1) friends.</p>
 
-        <p>A group/party working for the future.</p>
-
         <p>
-          Globally located, sharing a common mindset and approach in our work.
+          A collaborative party of creatives working to bring the future to you
+          one friend at a time.
         </p>
 
         <p>
-          Bettering ourselves and each other for the good of the planet{" "}
+          We're bettering ourselves and each other for the good of the planet{" "}
           <span className="globe" /> and our communities.
         </p>
 
