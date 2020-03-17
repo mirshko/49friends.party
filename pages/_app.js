@@ -36,6 +36,8 @@ export default function App({ Component, pageProps }) {
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
+        <link rel="icon" href="/favicon-transparent.png" type="image/png" />
+
         <link rel="preload" href="/globe.gif" as="image" />
       </Head>
       <style jsx global>{`
