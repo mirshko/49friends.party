@@ -62,7 +62,7 @@ export default function App({ Component, pageProps }) {
         }
 
         html {
-          font-size: 17px;
+          font-size: 15px;
           font-weight: 500;
           line-height: 1.21053;
           letter-spacing: 0.012em;
@@ -123,7 +123,7 @@ export default function App({ Component, pageProps }) {
         }
         .copy > * + * {
           margin-top: 3rem;
-          padding: 0 2rem;
+          padding: 0 1rem;
         }
 
         footer {
