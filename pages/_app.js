@@ -29,6 +29,13 @@ export default function App({ Component, pageProps }) {
         <meta property="og:site_name" content="49 FRIENDS" />
         <meta property="og:url" content="https://49friends.party" />
         <meta name="author" content="staff@49friends.party" />
+        <meta
+          property="og:image"
+          content="https://49friends.party/og-light.png"
+        />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <link rel="preload" href="/globe.gif" as="image" />
       </Head>
       <style jsx global>{`
