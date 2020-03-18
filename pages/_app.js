@@ -132,16 +132,19 @@ export default function App({ Component, pageProps }) {
         }
 
         a {
-          color: mediumspringgreen;
-          text-decoration: none;
-          text-shadow: 0.05em 0.05em 0 black;
+          color: rgb(90, 140, 240);
+          text-decoration-skip-ink: none;
+          text-decoration-skip: none;
+        }
+        a:hover:not(:active) {
+          animation: blink 2s infinite;
         }
 
-        @media (hover: hover) {
-          .hover-blink:hover:not(:active),
-          :any-link:hover:not(:active),
-          a:hover:not(:active) {
-            animation: blink 200ms infinite step-start;
+        @supports (text-underline-offset: 0.3em) {
+          a {
+            text-decoration-style: wavy;
+            text-decoration-thickness: 0.1em;
+            text-underline-offset: 0.3em;
           }
         }
 
@@ -150,7 +153,7 @@ export default function App({ Component, pageProps }) {
             opacity: 1;
           }
           50% {
-            opacity: 0;
+            opacity: 0.1;
           }
           to {
             opacity: 1;
