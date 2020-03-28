@@ -29,6 +29,10 @@ const Home = () => (
         <p>
           Find us on <a href="https://www.are.na/49friends-party">Are.na</a>.
         </p>
+
+        <p>
+          Chat with us on <a href="https://t.me/fortyninefriends">Telegram</a>.
+        </p>
       </div>
     </main>
 
