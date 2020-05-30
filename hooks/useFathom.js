@@ -1,4 +1,4 @@
-import { FATHOM_SITE_ID } from "lib/fathom";
+import { FATHOM_SITE_ID } from "../constants";
 import { useEffect } from "react";
 
 export default function useFathom() {
