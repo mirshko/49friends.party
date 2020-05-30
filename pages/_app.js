@@ -1,16 +1,10 @@
-import * as Fathom from "fathom-client";
 import Router from "next/router";
 import { useEffect, Fragment } from "react";
 import Head from "next/head";
-
-Router.events.on("routeChangeComplete", () => Fathom.trackPageview());
+import useFathom from "../hooks/useFathom";
 
 export default function App({ Component, pageProps }) {
-  useEffect(() => {
-    Fathom.load();
-    Fathom.setSiteId("DYVZJBMF");
-    Fathom.trackPageview();
-  }, []);
+  useFathom();
 
   return (
     <Fragment>
