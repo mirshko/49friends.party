@@ -47,8 +47,6 @@ export default function App({ Component, pageProps }) {
           content="https://49friends.party/og-light.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
-
-        <link rel="preload" href="/globe.gif" as="image" />
       </Head>
       <style jsx global>{`
         html {
@@ -158,18 +156,6 @@ export default function App({ Component, pageProps }) {
           to {
             opacity: 1;
           }
-        }
-
-        .globe {
-          position: relative;
-          background-image: url(/globe.gif);
-          background-position: center;
-          background-size: 1.25em;
-          background-repeat: no-repeat;
-          height: 1em;
-          width: 1em;
-          display: inline-block;
-          vertical-align: middle;
         }
 
         @media screen and (prefers-reduced-motion: reduce), (update: slow) {
