@@ -14,14 +14,13 @@ const Home = () => (
         </p>
 
         <p>
-          We're bettering ourselves and each other for the good of the planet{" "}
-          <span className="globe" /> and our communities.
+          We're bettering ourselves and each other for the good of the planet and our communities.
         </p>
 
         <p>Join in:</p>
 
         <p>
-          <a href="mailto:doorbell@49friends.party?subject=🚪🛎">
+          <a href="mailto:doorbell@49friends.party">
             doorbell@49friends.party
           </a>
         </p>
