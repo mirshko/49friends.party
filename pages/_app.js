@@ -1,30 +1,23 @@
 import { MDXProvider } from "@mdx-js/react";
-import { Fragment } from "react";
 import SEO from "../components/SEO";
 import { useFathom } from "../hooks";
 import { components } from "../lib";
-import { body } from "../styles";
+import "../styles.css";
 
 export default function App({ Component, pageProps }) {
   useFathom();
 
   return (
-    <Fragment>
+    <MDXProvider components={components}>
       <SEO />
 
-      <style jsx global>
-        {body}
-      </style>
-
       <main>
-        <MDXProvider components={components}>
-          <Component {...pageProps} />
-        </MDXProvider>
+        <Component {...pageProps} />
       </main>
 
       <footer>
         <p>© 2020</p>
       </footer>
-    </Fragment>
+    </MDXProvider>
   );
 }
