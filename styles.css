@@ -58,6 +58,14 @@ li {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
+
+li:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
 p,
 h1,
 h2,
