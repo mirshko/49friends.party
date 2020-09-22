@@ -1,11 +1,6 @@
 :root {
-  --primary: rgb(90, 140, 240);
-}
-
-@supports (color: color(display-p3 1 1 1)) {
-  :root {
-    --primary: color(display-p3 0.3529 0.549 0.9411);
-  }
+  --primary: #000;
+  --system-blue: #007aff;
 }
 
 html {
@@ -97,20 +92,12 @@ footer {
 }
 
 a {
-  color: var(--primary);
-  text-decoration-skip-ink: none;
-  text-decoration-skip: none;
-}
-a:hover:not(:active) {
-  animation: blink 2s infinite;
+  color: var(--system-blue);
+  text-decoration: none;
 }
 
-@supports (text-underline-offset: 0.3em) {
-  a {
-    text-decoration-style: wavy;
-    text-decoration-thickness: 0.1em;
-    text-underline-offset: 0.3em;
-  }
+a:hover:not(:active) {
+  animation: blink 2s infinite;
 }
 
 @keyframes blink {
